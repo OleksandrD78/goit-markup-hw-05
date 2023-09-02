@@ -519,14 +519,17 @@ body {
 
 .footer-sutitle {
   color:  #FFF;
+  font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footer-form {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .footer-label {}
@@ -540,7 +543,7 @@ body {
     
     font-size: 12px;
     
-    line-height: 2;
+    line-height: 1.5;
     padding: 8px 16px 8px;   
     letter-spacing: 0.04em;
     border-radius: 4px;
@@ -578,6 +581,7 @@ body {
 
 .footer-form-icon {
  fill: var(--white);
+ margin-left: 16px;
 }
 
 /**---------------PORTFOLIOPROJECTS----------------*/

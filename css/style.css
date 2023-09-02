@@ -874,7 +874,7 @@ transition: border-color var(--timing-function);
 .input-check:checked+.input-check-text>.check-empty {
     background-color: var(--ocean);
     border: none;
-    fill: #fff;
+    fill: var(--cloud);
     border-color: var(--ocean);
 }
 
